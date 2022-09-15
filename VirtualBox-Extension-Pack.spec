@@ -1,14 +1,14 @@
-Name:		VirtualBox-Extension-Pack
+Name: VirtualBox-Extension-Pack
 %define version 6.1.38
 Version: %{version}
-Release:	1
+Release: 1
 Summary: VirtualBox Extensions Pack
 License: Oracle
-Source0:	Oracle_VM_VirtualBox_Extension_Pack-%{version}.vbox-extpack
-ExclusiveArch:	x86_64
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Source0: Oracle_VM_VirtualBox_Extension_Pack-%{version}.vbox-extpack
+ExclusiveArch: x86_64
+BuildRoot: %{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define _enable_debug_packages	0
+%define _enable_debug_packages 0
 
 %description
 Virtualbox Extensions Pack
